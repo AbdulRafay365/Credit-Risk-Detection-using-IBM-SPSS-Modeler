@@ -1,6 +1,4 @@
 # Credit Risk Detection using IBM SPSS Modeler  
-
----
 ## Stream Overview
 
 <div align="center">
