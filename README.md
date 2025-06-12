@@ -50,22 +50,23 @@ Credit-Risk-Detection-using-IBM-SPSS-Modeler/
 
 ### Prerequisites
 - IBM SPSS Modeler installed (Version 18.2+)
-- Stream file: `exports/Credit Card Fraud Detection/Stream/*.str`
+- Stream file: `exports/Credit Card Fraud Detection/Stream/Credit Card Fraud Detection Models.str`
 - Dataset in: `exports/Credit Card Fraud Detection/Stream/Data/`
+- Download the Credit Card Fraud Detection.zip file in exports folder and unzip it in your working directory.
 
 ### Steps
 1. **Open the Stream**:
    - Launch SPSS Modeler
    - `File > Open Stream` > Navigate to:
      ```
-     exports/Credit Card Fraud Detection/Stream/Credit Card Fraud Detection Models.str
+     Credit Card Fraud Detection/Stream/Credit Card Fraud Detection Models.str
      ```
 
 2. **Verify Data Source**:
    - Edit the Source Node
    - Confirm path points to:
      ```
-     exports/Credit Card Fraud Detection/Stream/Data/German_Credit_Data.csv
+     Credit Card Fraud Detection/Stream/Data/German_Credit_Data.csv
      ```
 
 3. **Execute**:
