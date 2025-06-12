@@ -1,6 +1,13 @@
 # Credit Risk Detection using IBM SPSS Modeler  
 
 ---
+## Stream Overview
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/fd8cd037-1e29-4260-92ba-e4aa9b41563c" alt="Image">
+</div>
+
+---
 
 ## 📌 Executive Summary  
 This project evaluates machine learning models for **credit risk prediction** using the German credit dataset.  
@@ -39,6 +46,45 @@ Credit-Risk-Detection-using-IBM-SPSS-Modeler/
 ├── Analysis Report.pdf  
 └── README.md  
 ```
+## 🚀 How to Run the Stream
+
+### Prerequisites
+- IBM SPSS Modeler installed (Version 18.2+)
+- Stream file: `exports/Credit Card Fraud Detection/Stream/*.str`
+- Dataset in: `exports/Credit Card Fraud Detection/Stream/Data/`
+
+### Steps
+1. **Open the Stream**:
+   - Launch SPSS Modeler
+   - `File > Open Stream` > Navigate to:
+     ```
+     exports/Credit Card Fraud Detection/Stream/Your_Stream_Name.str
+     ```
+
+2. **Verify Data Source**:
+   - Edit the Source Node
+   - Confirm path points to:
+     ```
+     exports/Credit Card Fraud Detection/Stream/Data/Your_Dataset.csv
+     ```
+
+3. **Execute**:
+   - ▶️ Run button (full stream)
+   - OR right-click any node > "Run from Here"
+
+4. **View Results**:
+   - Check Table nodes for outputs
+   - Browse Model nodes for trained models
+   - Evaluation nodes auto-generate graphs
+
+### Troubleshooting
+| Issue | Solution |
+|-------|----------|
+| Missing Data | Verify dataset path in Source node |
+| Model Errors | Check license requirements |
+| SMOTE Issues | Validate Balance node settings |
+
+> 💡 **Tip**: Use Turbo Mode (⚡) for faster execution on large datasets
 
 ---
 
